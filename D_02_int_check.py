@@ -10,7 +10,7 @@ def int_check(question, low, high):
             response = int(input(question))
 
             # check that the number is more than one
-            if integer or 1 <= response <= 200:
+            if exit == "xxx" or 1 <= response <= 200:
                 return response
             else:
                 print(error)
@@ -25,3 +25,6 @@ for item in range(0,20):
     print(integer)
 
     print()
+
+    if exit == "xxx":
+        break
