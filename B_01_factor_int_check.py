@@ -53,7 +53,7 @@ def get_factor(to_factor):
 
 # Main routine here
 
-print(statement_generator("Factor Checker", "-"))
+(statement_generator("Factor Checker", "-"))
 
 want_instructions = input("Press <enter> to read the instructions "
                           "or any key to continue ")
